@@ -19,7 +19,7 @@ app.post('/api/opinion', function (req, res) {
   jugadores.push(nombre)
   var opinion = req.body.opinion
   jugadores.push(opinion)
-  res.status(201).redirect("/")
+  res.status(201).redirect("https://bruja.herokuapp.com/")
   
   MongoClient.connect(url, async function(err, client) {
     if (err) {
