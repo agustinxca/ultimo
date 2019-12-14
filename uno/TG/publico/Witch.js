@@ -179,7 +179,7 @@ function puntaje(){
         ctx.fillText( `GAME OVER`, 440, 250);
         ctx.fillText( `${puntuacion} `,560,50);
         console.log(puntuacion);
-        window.location.assign("http://localhost:3000/formulario.html")
+        window.location.assign("https://bruja.herokuapp.com//formulario.html")
     }
 }
 
