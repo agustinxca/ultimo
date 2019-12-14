@@ -1,0 +1,7 @@
+{
+  "name": "servidor",
+  "main": "servidor.js",
+  "scripts": {
+  "start": "node index.js"
+}
+}
